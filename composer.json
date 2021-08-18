@@ -23,9 +23,15 @@
       "Drupal\\bolt_connect\\": "src"
     }
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/boltdesignsystem/twig-tools"
+    }
+  ],
   "require": {
-    "bolt-design-system/core-php": "4.2.2",
-    "basaltinc/twig-tools": "^1.4.0",
+    "bolt-design-system/core-php": "dev-twig-upgrade",
+    "basaltinc/twig-tools": "dev-twig-2.x",
     "webmozart/path-util": "^2.3"
   }
 }
